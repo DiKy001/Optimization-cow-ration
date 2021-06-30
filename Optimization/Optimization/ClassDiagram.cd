@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Optimization.Data" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAAAEAASAAABLBAJCAAABCINy7AAIg0HAfQAEEQLA=</HashCode>
+      <FileName>Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Loading" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Loading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Menu" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAACAAAACABA4AAAAAHAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Optimiz" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAACAAABBABICCAAgCAFw4BgAAkHAIAAAAAAA=</HashCode>
+      <FileName>Optimiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Saving" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Saving.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.Simplex">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="fresult" Hidden="true" />
+      <Field Name="ii" Hidden="true" />
+      <Field Name="l" Hidden="true" />
+      <Field Name="m" Hidden="true" />
+      <Field Name="n" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>wABACAAAAAAAAQQABAAAgAAAAiIAAAEAFgAQAAAAAAA=</HashCode>
+      <FileName>Simplex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Optimization.TableBase">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="ChangeLimit" Hidden="true" />
+      <Method Name="ChangeValue" Hidden="true" />
+      <Method Name="DeleteLimit" Hidden="true" />
+      <Method Name="DeleteVar" Hidden="true" />
+      <Field Name="filelenth" Hidden="true" />
+      <Property Name="Limints" Hidden="true" />
+      <Field Name="limitsamount" Hidden="true" />
+      <Property Name="LimitsAmount" Hidden="true" />
+      <Field Name="posgroups" Hidden="true" />
+      <Property Name="PosGroups" Hidden="true" />
+      <Method Name="TableBuild" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAACCEAAAEgAwCAMAAAAIgCQIA9AIAAAIEAQAAEAAAA=</HashCode>
+      <FileName>TableBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
